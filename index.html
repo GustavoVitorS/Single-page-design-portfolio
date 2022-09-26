@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Portfólio de design de página única</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <div class="logo"></div>
+        <button class="btn black">Consulta gratuita</button>
+      </div>
+
+      <section class="hero">
+        <div class="hero__content">
+          <h1 class="hero__content-title">Soluções de design simplificadas</h1>
+          <p class="hero__content-text">Com mais de dez anos de experiência em várias disciplinas de design, sou seu
+            one-stop shop para suas necessidades de design.</p>
+        </div>
+        <div class="hero__services">
+          <div class="card graphic-design">
+            <p class="card__text">Design gráfico</p>
+            <img src="./assets/pattern-graphic-design.svg" alt="pattern-graphic-design" class="card__img">
+          </div>
+          <div class="card ui-ux">
+            <p class="card__text">UI/UX</p>
+            <img src="./assets/pattern-ui-ux.svg" alt="pattern-ui-ux" class="card__img">
+          </div>
+          <div class="card apps">
+            <p class="card__text">Aplicativos</p>
+            <img src="./assets/pattern-apps.svg" alt="pattern-apps" class="card__img">
+          </div>
+          <div class="card illustrations">
+            <p class="card__text">Ilustrações</p>
+            <img src="./assets/pattern-illustrations.svg" alt="pattern-illustrations" class="card__img">
+          </div>
+          <div class="card photography">
+            <p class="card__text">Fotografia</p>
+            <img src="./assets/pattern-photography.svg" alt="pattern-photography" class="card__img">
+          </div>
+          <div class="card motion-graphics">
+            <p class="card__text">Gráficos em movimento</p>
+            <img src="./assets/pattern-motion-graphics.svg" alt="pattern-motion-graphics" class="card__img">
+          </div>
+        </div>
+      </section>
+    </div>
+  </header>
+
+  <main>
+    <section class="testimonials">
+      <div class="container">
+        <div class="testimonials__inner">
+          <img src="./assets/image-amy.webp" alt="image-amy" class="testimonials__img">
+          <div class="testimonials__content">
+            <h2 class="testimonials__title">Eu sou Amy e adoraria trabalhar em seu próximo projeto</h2>
+            <p class="testimonials__text">Adoro trabalhar com outras pessoas para criar belas soluções de design. eu projetei
+              tudo, desde ilustrações de marca até aplicativos móveis completos. Eu também sou habilidoso com uma câmera!
+                                                                                                                        </p>
+            <button class="btn light-red">Consulta gratuita</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="works">
+      <h3 class="works__title">Meu trabalho</h3>
+
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./assets/image-slide-1.jpg" alt="image-slide-1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/image-slide-2.jpg" alt="image-slide-2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/image-slide-3.jpg" alt="image-slide-3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/image-slide-4.jpg" alt="image-slide-4" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/image-slide-5.jpg" alt="image-slide-5" />
+          </div>
+        </div>
+      </div>
+
+      <div class="button-controls">
+        <button class="button button--control prev">
+          <img src="./assets/icon-arrow-left.svg" alt="icon-arrow-left" />
+        </button>
+        <button class="button button--control next">
+          <img src="./assets/icon-arrow-right.svg" alt="icon-arrow-right" />
+        </button>
+      </div>
+    </section>
+
+    <section class="booking">
+      <div class="container">
+        <div class="booking__content">
+          <div class="booking__content-info">
+            <h2 class="booking__content-title">Agende uma ligação comigo</h2>
+            <p class="booking__content-text">Adoraria bater um papo para ver como posso te ajudar. O melhor primeiro passo é
+              por
+              nós para
+              discuta seu projeto durante uma consulta gratuita. Então podemos avançar a partir daí.</p>
+          </div>
+          <div class="booking__content-btn">
+            <button class="btn light-red">Consulta gratuita</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="logo"></div>
+        <button class="btn black">Consulta gratuita</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <script src="./script.js"></script>
+</body>
+</html>
